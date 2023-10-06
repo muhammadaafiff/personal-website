@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+nav{
+    height: 40px;
+}
+
+ul{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    gap: 40px;
+    margin: 0px 20px;
+    height: 100%;
+    padding: 0px 0px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
