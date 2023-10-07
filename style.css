@@ -84,3 +84,28 @@ footer > p{
     width: 60%;
     text-align: justify;
 }
+
+.grid-portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    row-gap: 10px;
+    column-gap: 10px;
+    text-align: center;
+}
+
+.grid-pf{
+    border: 1px solid black;
+    align-self: center;
+    height: 500px;
+}
+
+.pf-cover{
+    height: 250px;
+}
+
+.grid-pf img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
