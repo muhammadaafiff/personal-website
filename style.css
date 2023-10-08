@@ -116,7 +116,7 @@ footer > p{
 }
 
 .content-pf > p{
-    margin: 0px;
+    margin: 16px 0px;
 }
 .grid-portfolio{
     display: grid;
@@ -172,7 +172,7 @@ footer > p{
 }
 
 .content-blog > p{
-    margin: 0px;
+    margin: 16px 0px;
 }
 
 .content-blog > ol{
