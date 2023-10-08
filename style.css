@@ -199,3 +199,35 @@ footer > p{
     width: 90%;
     text-align: justify;
 }
+
+.grid-masukan{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.grid-item1{
+    margin: auto 0px;
+    align-items: center;
+}
+
+textarea{
+    background-color: #EADBC8;
+}
+
+button {
+    background-color: black;
+    color:white;
+    width: 110px;
+    font-size: 14px;
+    padding: 0.4em;
+    border: 0px;
+    border-radius: 3px;
+}
+
+#button-placement{
+    text-align: right;
+    padding: 0px 40px;
+}
