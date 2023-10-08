@@ -136,12 +136,13 @@ footer > p{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .grid-pf h3{
     height: 50px;
     margin: 10px 0px;
+    padding: 0px 10px;
 }
 
 .grid-pf p{
