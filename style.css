@@ -31,11 +31,20 @@ ul{
     font-size: 20px;
 }
 
+nav > ul > li > a:hover{
+    color: #102c575e;
+}
+
 ul > li > a{
     text-decoration: none;
 }
 span{
     font-weight:lighter;
+}
+
+#nama{
+    font-style: italic;
+    transition: all 1s;
 }
 
 .grid-hero{
@@ -56,7 +65,7 @@ span{
 #foto-profil{
     width: 300px;
     height: 300px;
-    border-radius: 100%;
+    border-radius: 100%;;
 }
 
 .grid-item2{
@@ -127,6 +136,10 @@ footer > p{
     box-shadow: 2px 2px 5px #102C57;
 }
 
+.grid-pf:hover{
+    box-shadow: 4px 4px 5px #102C57;
+}
+
 .pf-cover{
     height: 250px;
     padding: 10px;
@@ -136,7 +149,7 @@ footer > p{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .grid-pf h3{
