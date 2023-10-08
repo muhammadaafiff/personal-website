@@ -92,11 +92,6 @@ footer > p{
     margin: 20px 0px 0px 0px;
 } 
 
-.tentang-saya{
-    width: 60%;
-    text-align: justify;
-}
-
 .content-pf{
     padding: 30px;;
 }
@@ -170,4 +165,17 @@ footer > p{
 
 .content-blog > ol > img{
     margin-bottom: 20px;
+}
+
+.content-about{
+    padding: 30px;
+}
+
+.content-about > h1{
+    margin: 0px;
+}
+
+.tentang-saya{
+    width: 90%;
+    text-align: justify;
 }
