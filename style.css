@@ -10,7 +10,7 @@ body{
 }
 
 nav{
-    height: 50px;
+    height: 70px;
     background-color: #DAC0A3;
     /* position: sticky;
     top: 0px; */
@@ -97,27 +97,53 @@ footer > p{
     text-align: justify;
 }
 
+.content-pf{
+    padding: 30px;;
+}
+
+.content-pf > h1{
+    margin: 0px;
+}
+
+.content-pf > p{
+    margin: 0px;
+}
 .grid-portfolio{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
-    row-gap: 10px;
-    column-gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    row-gap: 20px;
+    column-gap: 20px;
     text-align: center;
 }
 
 .grid-pf{
     border: 1px solid black;
+    border-radius: 5px;
     align-self: center;
     height: 500px;
+    box-shadow: 2px 2px 5px #102C57;
 }
 
 .pf-cover{
     height: 250px;
+    padding: 10px;
 }
 
 .grid-pf img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid-pf h3{
+    height: 50px;
+    margin: 10px 0px;
+}
+
+.grid-pf p{
+    padding: 0px 10px;
+    text-align: justify;
 }
