@@ -12,13 +12,9 @@ body{
 nav{
     height: 70px;
     background-color: #DAC0A3;
-    /* position: sticky;
-    top: 0px; */
 }
 
 ul{
-    /* background-color: blue; */
-    
     display: flex;
     justify-content: end;
     list-style-type: none;
@@ -38,6 +34,7 @@ nav > ul > li > a:hover{
 ul > li > a{
     text-decoration: none;
 }
+
 span{
     font-weight:lighter;
 }
@@ -65,7 +62,7 @@ span{
 #foto-profil{
     width: 300px;
     height: 300px;
-    border-radius: 100%;;
+    border-radius: 100%;
 }
 
 .grid-item2{
@@ -88,12 +85,13 @@ footer{
 footer > h3{
     margin: 10px 0px;
 }
+
 .sosmed{
     display: flex;
     gap: 20px;
     justify-content: center;
-
 }
+
 .sosmed > a > img{
     width: 20px ;
     height: 20px;
@@ -118,6 +116,7 @@ footer > p{
 .content-pf > p{
     margin: 16px 0px;
 }
+
 .grid-portfolio{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -179,11 +178,7 @@ footer > p{
     margin: 20px 0px 0px 0px;
 }
 
-.content-blog > ol > p{
-    margin: 5px 0px 20px;
-}
-
-.content-blog > ol > img{
+#list-blog > ol > img{
     margin-bottom: 20px;
 }
 
@@ -215,9 +210,10 @@ footer > p{
 
 textarea{
     background-color: #EADBC8;
+    padding: 10px;
 }
 
-button {
+button{
     background-color: black;
     color:white;
     width: 110px;
