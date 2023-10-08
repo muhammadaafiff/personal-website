@@ -73,6 +73,7 @@ footer{
     margin: 0px;
     padding: 10px 30px;
     background-color: #EADBC8;
+    text-align: center;
 }
 
 footer > h3{
@@ -81,6 +82,8 @@ footer > h3{
 .sosmed{
     display: flex;
     gap: 20px;
+    justify-content: center;
+
 }
 .sosmed > a > img{
     width: 20px ;
@@ -90,6 +93,9 @@ footer > h3{
 
 footer > p{
     margin: 20px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: grey;
 } 
 
 .content-pf{
