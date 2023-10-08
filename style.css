@@ -38,7 +38,7 @@ span{
     font-weight:lighter;
 }
 
-.grid-hero {
+.grid-hero{
     display: grid;
     grid-template-columns: auto auto auto;
     width: 70%;
@@ -47,7 +47,7 @@ span{
     justify-self: center;
 }
 
-.grid-hero > div {
+.grid-hero > div{
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -65,7 +65,7 @@ span{
     align-self: center;
 }
 
-.grid-item2 > p {
+.grid-item2 > p{
     margin: 5px;
 }
 
@@ -146,4 +146,28 @@ footer > p{
 .grid-pf p{
     padding: 0px 10px;
     text-align: justify;
+}
+
+.content-blog{
+    padding: 30px;
+}
+
+.content-blog > h1{
+    margin: 0px;
+}
+
+.content-blog > p{
+    margin: 0px;
+}
+
+.content-blog > ol{
+    margin: 20px 0px 0px 0px;
+}
+
+.content-blog > ol > p{
+    margin: 5px 0px 20px;
+}
+
+.content-blog > ol > img{
+    margin-bottom: 20px;
 }
